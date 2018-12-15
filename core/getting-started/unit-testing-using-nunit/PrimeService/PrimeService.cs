@@ -5,8 +5,8 @@ namespace Prime.Services
     public class PrimeService
     {
         public bool IsPrime(int candidate)
-	    {
-            if (candidate == 7)
+        {
+            if (candidate == 5)
             {
                 return true;
             }
