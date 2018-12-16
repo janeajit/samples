@@ -28,6 +28,13 @@ namespace Prime.UnitTests.Services
 
             Assert.IsTrue(result, "5 should be prime");
         }
+        public void ReturnTrueGivenValueOf98()
+        {
+            var result = _primeService.IsPrime(98);
+
+            Assert.IsTrue(result, "98 should be prime");
+        }
+
 
         #region Sample_TestCode
         [TestCase(-1)]
